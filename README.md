@@ -8,9 +8,22 @@ Rebecca Lyons, Clement Matthew Chan, Andrew R. Parry, Catherine M. E. Hodal, Jia
 ABSTRACT 
 Citrate-based plasticizers are often regarded as being less environmentally harmful alternatives to phthalates like dibutyl phthalate (DBP). Here, we tested these assertions by investigating the response of soil microbial communities to biopolymer samples plasticized with acetyl tributyl citrate (ATBC), triethyl citrate (TEC), DBP, or nothing (control). Samples were buried in soil for 14 weeks, after which the biomass and diversity of bacterial and fungal communities associated with the biopolymer, attached soil and bulk soil were characterized using metabarcoding and quantitative PCR. Differences between buried (incubated) and non-incubated biopolymer samples were also analyzed using X-ray micro-computed tomography, gel permeation chromatography and 1H-nuclear magnetic resonance spectroscopy to assess biopolymer degradation and plasticizer migration. Surface degradation and plasticizer migration were observed for all treatments, with minor impacts of plasticizers on microbial biomass and alpha diversity. Critically, however, plastisphere bacterial communities formed two groups that were compositionally distinct. One group comprised the DBP samples while the other comprised the control, ATBC and TEC samples. This indicates that DBP can impact soil bacterial community composition on release from biopolymer blends, with potential consequences for ecosystem function, while the effects of the citrate-based plasticizers were reduced, supporting their use as less environmentally impactful alternatives to phthalates. 
 
-The repository has 5 main analytical scripts:
-Script 1: Data input and subsetting
-Script 2: Biomass, alpha, beta diversity
-Script 3: Physicochemical analyses
-Script 4: Indicator analyses. Note: libraries for indicator analysis are incompatible with the rest of the script.
-Script 5: Differential abundance testing
+The repository has the following analytical R scripts:
+# Script 1: Data input and sub-setting
+# Script 2: Physicochemical analyses
+# Script 3: Biomass, alpha, beta diversity
+# Script 4: Indicator analyses
+# Script 5: Differential abundance testing
+
+In addition, the repository includes the following data files:
+# GPC.csv 
+# NMR.csv 
+# qPCR.csv 
+# env_16S_5000.csv
+# otu_16S_with_GG2_tax_5000.csv
+# otu_16S_non_rarefied.csv
+# env_ITS2_5850.csv
+# otu_ITS2_with_Unite10_tax_5850.csv
+# otu_ITS2_non_rarefied.csv
+
+Lastly, there is a text file with commands for our bioinformatics pipeline.
