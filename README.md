@@ -25,5 +25,3 @@ In addition, the repository includes the following data files:
 - env_ITS2_5850.csv
 - otu_ITS2_with_Unite10_tax_5850.csv
 - otu_ITS2_non_rarefied.csv
-
-Lastly, there is a text file with commands for our bioinformatics pipeline.
