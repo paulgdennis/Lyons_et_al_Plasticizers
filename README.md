@@ -10,20 +10,20 @@ Citrate-based plasticizers are often regarded as being less environmentally harm
 
 The repository has the following analytical R scripts:
 - Script 1: Data input and sub-setting
-# Script 2: Physicochemical analyses
-# Script 3: Biomass, alpha, beta diversity
-# Script 4: Indicator analyses
-# Script 5: Differential abundance testing
+- Script 2: Physicochemical analyses
+- Script 3: Biomass, alpha, beta diversity
+- Script 4: Indicator analyses
+- Script 5: Differential abundance testing
 
 In addition, the repository includes the following data files:
-# GPC.csv 
-# NMR.csv 
-# qPCR.csv 
-# env_16S_5000.csv
-# otu_16S_with_GG2_tax_5000.csv
-# otu_16S_non_rarefied.csv
-# env_ITS2_5850.csv
-# otu_ITS2_with_Unite10_tax_5850.csv
-# otu_ITS2_non_rarefied.csv
+- GPC.csv 
+- NMR.csv 
+- qPCR.csv 
+- env_16S_5000.csv
+- otu_16S_with_GG2_tax_5000.csv
+- otu_16S_non_rarefied.csv
+- env_ITS2_5850.csv
+- otu_ITS2_with_Unite10_tax_5850.csv
+- otu_ITS2_non_rarefied.csv
 
 Lastly, there is a text file with commands for our bioinformatics pipeline.
