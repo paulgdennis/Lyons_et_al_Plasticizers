@@ -31,7 +31,7 @@ cld(lsmeans(
             Letters = letters, 
             adjust = "Tukey")
 
-# Plot data from different treatment combinations as bars with 95% CI and individual data points
+# Plot data from different treatment combinations as bars with SEM and individual data points
 nTreatments <- 4
 qPCR$i_Comp <- as.numeric(factor(qPCR$Compartment , levels = c('BS','AS','P')))
 qPCR$i_Plasticiser <- as.numeric(factor(qPCR$Plasticiser , levels = c('Ctrl' , 'TBAC' , 'TEC' , 'DBP')))
@@ -193,7 +193,7 @@ cld(lsmeans(
   Letters = letters, 
   adjust = "Tukey")
 
-# Plot data from different treatment combinations as bars with 95% CI and individual data points
+# Plot data from different treatment combinations as bars with SEM and individual data points
 nTreatments <- 4
 qPCR$i_Comp <- as.numeric(factor(qPCR$Compartment , levels = c('BS','AS','P')))
 qPCR$i_Plasticiser <- as.numeric(factor(qPCR$Plasticiser , levels = c('Ctrl' , 'TBAC' , 'TEC' , 'DBP')))
