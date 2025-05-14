@@ -17,7 +17,7 @@ library(sciplot)
 
 ### GPC (Mn, Mw, PD)
 
-# Plot data from 0 and 14 days as bars with 95% CI and individual data points
+# Plot data from 0 and 14 days as bars with SEM and individual data points
 
 # Identify where it where the data points are on the x axis. 
 nTimes <- 2
@@ -39,7 +39,7 @@ points(chem_gpc$x_barplot , chem_gpc$Mn , pch = 16 , cex = 0.4 , col = 'black')
 
 ### NMR
 
-# Plot NMR data from 0 and 14 days as bars with 95% CI and individual data points
+# Plot NMR data from 0 and 14 days as bars with SEM and individual data points
 
 ##Identify where it where the datapoints are on the x axis. 
 nTimes <- 2
@@ -78,5 +78,3 @@ t.test(group1, group2)
 group1 <- chem_gpc.before$Mn[which(chem_gpc.before$Plasticiser == "DBP")]
 group2 <- chem_gpc.after$Mn[which(chem_gpc.after$Plasticiser == "DBP")]
 t.test(group1, group2)
-
-
