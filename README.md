@@ -15,6 +15,8 @@ The repository has the following analytical R scripts:
 - Script 4: Indicator analyses
 - Script 5: Differential abundance testing
 
+The repository also has a bash script (amplicon_analysis_pipeline.sh) storing the key bioinformatics commands used in analysing amplicon sequencing data.
+
 In addition, the repository includes the following data files:
 - GPC.csv 
 - NMR.csv 
